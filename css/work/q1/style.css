@@ -21,10 +21,10 @@
   margin-left: 0px;
 }
 
-.q1_wrap::clearfix {
+.clearfix::after {
+  display: block;
   content: "";
   clear: both;
-  display: block;
 }
 
 /* q1が終わったら

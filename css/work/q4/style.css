@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.q4_align .q4_blue {
+.q4_align p {
   display: inline-block;
 }
 
@@ -13,7 +13,7 @@
   display:block;
 }
 
-.q4_margin .q4_blue {
+.q4_margin p {
   margin: auto;
 }
 
@@ -27,7 +27,7 @@
   text-align: center;
 }
 
-.q4_table .q4_blue {
+.q4_table p {
   display: inline-block;
 }
 
@@ -37,7 +37,7 @@
   justify-content: center;
 }
 
-.q4_flex .q4_blue {
+.q4_flex p {
   text-align: center;
 }
 
@@ -45,7 +45,7 @@
   position: relative;
 }
 
-.q4_position-fix .q4_blue {
+.q4_position-fix p {
   position: absolute;
   top: 0;
   left: 0;
@@ -59,7 +59,7 @@
   position: relative;
 }
 
-.q4_position-transform .q4_blue {
+.q4_position-transform p {
   position: absolute;
   left: 50%;
   top: 50%;

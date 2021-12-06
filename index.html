@@ -70,54 +70,58 @@
         <div class="layout_main_section_contents">
           <!-- 回答はここに書いてね -->
           <table class="q2_table">
-            <tr>
-              <th>日付</th>
-              <th>朝ごはん</th>
-              <th>昼ごはん</th>
-              <th>おやつ</th>
-              <th>夜ご飯</th>
-              <th>夜食</th>
-            </tr>
-            <tr class="q2_tr">
-              <th>2016/04/01</th>
-              <td>食パン</td>
-              <td>チャーハン</td>
-              <td>杏仁豆腐</td>
-              <td>舞茸丼</td>
-              <td>いちご</td>
-            </tr>
-            <tr class="q2_tr">
-              <th>2016/04/02</th>
-              <td>なし</td>
-              <td>ケバブ丼</td>
-              <td>ゼリー</td>
-              <td>唐揚げ定食</td>
-              <td>いちご</td>
-            </tr>
-            <tr class="q2_tr">
-              <th>2016/04/03</th>
-              <td>納豆ご飯</td>
-              <td>まぐろ定食</td>
-              <td>チョコパン</td>
-              <td>餃子定食</td>
-              <td>チョコ</td>
-            </tr>
-            <tr class="q2_tr">
-              <th>2016/04/04</th>
-              <td>食パン</td>
-              <td>牛丼</td>
-              <td>アイス</td>
-              <td>豚丼</td>
-              <td>スムージー</td>
-            </tr>
-            <tr class="q2_tr">
-              <th>合計カロリー</th>
-              <td>10000kcal</td>
-              <td>12000kcal</td>
-              <td>3000kcal</td>
-              <td>30000kcal</td>
-              <td>1000kcal</td>
-            </tr>
+            <thead>
+              <tr>
+                <th class="q2_th">日付</th >
+                <th class="q2_th">朝ごはん</th >
+                <th class="q2_th">昼ごはん</th >
+                <th class="q2_th">おやつ</th >
+                <th class="q2_th">夜ご飯</th >
+                <th class="q2_th">夜食</th >
+              </tr>
+            </thead>
+            <tbody>
+              <tr class="q2_tr">
+                <th class="q2_th">2016/04/01</th>
+                <td class="q2_td">食パン</td>
+                <td class="q2_td">チャーハン</td>
+                <td class="q2_td">杏仁豆腐</td>
+                <td class="q2_td">舞茸丼</td>
+                <td class="q2_td">いちご</td>
+              </tr>
+              <tr class="q2_tr">
+                <th class="q2_th">2016/04/02</th>
+                <td class="q2_td">なし</td>
+                <td class="q2_td">ケバブ丼</td>
+                <td class="q2_td">ゼリー</td>
+                <td class="q2_td">唐揚げ定食</td>
+                <td class="q2_td">いちご</td>
+              </tr>
+              <tr class="q2_tr">
+                <th class="q2_th">2016/04/03</th>
+                <td class="q2_td">納豆ご飯</td>
+                <td class="q2_td">まぐろ定食</td>
+                <td class="q2_td">チョコパン</td>
+                <td class="q2_td">餃子定食</td>
+                <td class="q2_td">チョコ</td>
+              </tr>
+              <tr class="q2_tr">
+                <th class="q2_th">2016/04/04</th>
+                <td class="q2_td">食パン</td>
+                <td class="q2_td">牛丼</td>
+                <td class="q2_td">アイス</td>
+                <td class="q2_td">豚丼</td>
+                <td class="q2_td">スムージー</td>
+              </tr>
+              <tr class="q2_tr">
+                <th class="q2_th">合計カロリー</th>
+                <td class="q2_td">10000kcal</td>
+                <td class="q2_td">12000kcal</td>
+                <td class="q2_td">3000kcal</td>
+                <td class="q2_td">30000kcal</td>
+                <td class="q2_td">1000kcal</td>
+              </tr>
+            </tbody>
           </table>
         </div>
       </div>
@@ -130,15 +134,15 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <!-- 回答はこの中に書いてね↓ -->
           <div class="q3_box">
-            <div class="q3_8">8</div>
-            <div class="q3_5">5</div>
-            <div class="q3_1">1</div>
-            <div class="q3_7">7</div>
-            <div class="q3_4">4</div>
-            <div class="q3_6">6</div>
-            <div class="q3_2">2</div>
-            <div class="q3_3">3</div>
-            <div class="q3_fixed_box"></div>
+            <div class="q3_8 contents">8</div>
+            <div class="q3_5 contents">5</div>
+            <div class="q3_1 contents">1</div>
+            <div class="q3_7 contents">7</div>
+            <div class="q3_4 contents">4</div>
+            <div class="q3_6 contents">6</div>
+            <div class="q3_2 contents">2</div>
+            <div class="q3_3 contents">3</div>
+            <div class="q3_fixed_box q3_contentbox"></div>
           </div>
           <!-- 回答はこの中に書いてね↑ -->
         </div>
@@ -205,13 +209,17 @@
             <h3 class="q5_inner_title">ー 5-1 floatでの横並び ー</h3>
             <!-- 新たにタグは追加しなくてもできます。 -->
             <!-- 回答はこの中に書いてね↓ -->
-            <div class="q5_inner_contents">
-              <p class="q5_white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
-              <p class="q5_white">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-              </p>
+            <div class="q5_inner_contents clearfix">
+              <div class="q5_float">
+                <p class="q5_white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
+              <div class="q5_float">
+                <p class="q5_white">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                </p>
+              </div>
             </div>
             <!-- 回答はこの中に書いてね↑ -->
           </div>
@@ -220,15 +228,17 @@
             <!-- 新たにタグは追加しなくてもできます。 -->
             <!-- 回答はこの中に書いてね↓ -->
             <div class="q5_inner_contents">
-              <div>
+              <div class="q5_thead">
+                <div class="q5_tbody">
+                  <p class="q5_white">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                  </p>
+              </div>
+              <div class="q5_tbody">
                 <p class="q5_white">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
                 </p>
               </div>
-              <div>
-                <p class="q5_white">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
               </div>
             </div>
             <!-- 回答はこの中に書いてね↑ -->

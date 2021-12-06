@@ -12,91 +12,66 @@
   background-color: #ecf1f2;
 }
 
-.q3_8 {
+.contents {
   width: 100px;
   height: 100px;
+  position: absolute;
+  font-weight: bold;
+}
+
+.q3_8 {
   top: 120px;
   left: 120px;
   z-index: 8;
-  position: absolute;
-  font-weight: bold;
   background-color: #de70cf;
 }
 
 .q3_7 {
-  width: 100px;
-  height: 100px;
   left: 40px;
   top: 200px;
   z-index: 7;
-  position: absolute;
-  font-weight: bold;
   background-color: #deae70;
 }
 
 .q3_6 {
-  width: 100px;
-  height: 100px;
   left: 120px;
   bottom: 120px;
   z-index: 6;
-  position: absolute;
-  font-weight: bold;
   background-color: #fffee4;
 }
 
 .q3_5 {
-  width: 100px;
-  height: 100px;
   left: 200px;
   bottom: 40px;
   z-index: 5;
-  position: absolute;
-  font-weight: bold;
   background-color: #9fd6d2;
 }
 
 .q3_4 {
-  width: 100px;
-  height: 100px;
   right: 120px;
   bottom: 120px;
   z-index: 4;
-  position: absolute;
-  font-weight: bold;
   background-color: #8b7a5e;
 }
 
 .q3_3 {
-  width: 100px;
-  height: 100px;
   right: 40px;
   top: 200px;
   z-index: 3;
-  position: absolute;
-  font-weight: bold;
   background-color: #d0ecea;
 }
 
 .q3_2 {
-  width: 100px;
-  height: 100px;
   right: 120px;
   top: 120px;
   z-index: 2;
-  position: absolute;
-  font-weight: bold;
   background-color: #7084de;
 }
 
 .q3_1 {
-  width: 100px;
-  height: 100px;
   left: 200px;
   top: 40px;
   z-index: auto;
-  position: absolute;
-  font-weight: bold;
   background-color: #ffefd3;
 }
 
@@ -111,7 +86,7 @@
   background-color: #ffefd3;
 }
 
-.q3_fixed_box {
+.q3_contentbox {
   position: fixed;
   right: 50px;
   bottom: 50px;
