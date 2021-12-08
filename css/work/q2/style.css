@@ -15,7 +15,7 @@
   border-top: 2px dashed #000;
 }
 
-.q2_th {
+.q2_table th {
   font-size: 18px;
   color: #ffff;
   line-height: 26px;
@@ -24,7 +24,7 @@
   background-color: #2244aa;
 }
 
-.q2_td {
+.q2_tr td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;

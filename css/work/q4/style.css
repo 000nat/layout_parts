@@ -4,12 +4,11 @@
   text-align: center;
 }
 
-.q4_align p {
+.q4_textalign {
   display: inline-block;
 }
 
 .q4_margin {
-  text-align: center;
   display:block;
 }
 
@@ -24,7 +23,6 @@
 .q4_text {
   display: table-cell;
   vertical-align: middle;
-  text-align: center;
 }
 
 .q4_table p {
@@ -35,10 +33,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.q4_flex p {
-  text-align: center;
 }
 
 .q4_position-fix {
@@ -52,7 +46,6 @@
   right: 0;
   bottom: 0;
   margin: auto;
-  text-align: center;
 }
 
 .q4_position-transform {
@@ -64,7 +57,6 @@
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
-  text-align: center;
 }
 
 /* q4が終わったら
