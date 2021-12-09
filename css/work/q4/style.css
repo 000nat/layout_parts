@@ -4,7 +4,7 @@
   text-align: center;
 }
 
-.q4_textalign {
+.q4_inlineblock {
   display: inline-block;
 }
 
@@ -25,21 +25,17 @@
   vertical-align: middle;
 }
 
-.q4_table p {
-  display: inline-block;
-}
-
 .q4_flex {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.q4_position-fix {
+.q4_position {
   position: relative;
 }
 
-.q4_position-fix p {
+.q4_position_fix {
   position: absolute;
   top: 0;
   left: 0;
@@ -48,11 +44,7 @@
   margin: auto;
 }
 
-.q4_position-transform {
-  position: relative;
-}
-
-.q4_position-transform p {
+.q4_position_transform {
   position: absolute;
   left: 50%;
   top: 50%;

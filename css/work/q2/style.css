@@ -7,11 +7,11 @@
   table-layout: fixed;  
 }
 
-.q2_tr:nth-child(2n) td {
+.q2_table tr:nth-child(2n) td {
   background-color: #ecf1f2;
 }
 
-.q2_tr:last-child {
+.q2_table tbody :last-child {
   border-top: 2px dashed #000;
 }
 
@@ -24,7 +24,7 @@
   background-color: #2244aa;
 }
 
-.q2_tr td {
+.q2_table td {
   font-size: 16px;
   line-height: 22px;
   padding: 10px;

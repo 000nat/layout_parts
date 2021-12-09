@@ -10,16 +10,13 @@
 
 ## q2
 
-<th><td>につけていたクラス名を削除しました
-クラス、タグで宣言し、classを必要な箇所のみに減らしました
+tableタグにのみクラスを作成しました
 
 ## q3
 
 ## q4
 
-<div class="q4_inner_contents q4_align">
-
-.q4_align {
-  text-align: center;
-}
-でまとめました。
+text-align: center
+display: inline-block
+position: relative
+上記クラスをそれぞれまとめました
