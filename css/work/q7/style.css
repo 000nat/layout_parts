@@ -1,1 +1,31 @@
 @charset "UTF-8";
+
+.q7_textbox {
+  font-size: 16px;
+  padding: 20px;
+  border-radius: 30px;
+  display: inline-block;
+  position: relative;
+  margin: 0 auto;
+  width: 515px;
+  box-sizing: border-box;
+  border: solid 5px #222;
+}
+
+.q7_textbox::before {
+  content: "";
+  border: solid 5px transparent;
+  border-top: solid  5px #fff;
+  position: absolute;
+  top: 70%;
+  z-index: 2;
+}
+
+.q7_textbox::after {
+  content: "";
+  border: solid 5px transparent;
+  border-top: solid  5px #555;
+  position: absolute;
+  top: 70%;
+  z-index: 1;
+}
