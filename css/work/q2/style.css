@@ -11,7 +11,7 @@
   background-color: #ecf1f2;
 }
 
-.q2_table tbody :last-child {
+.q2_table tbody tr:last-child {
   border-top: 2px dashed #000;
 }
 
