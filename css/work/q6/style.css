@@ -40,7 +40,6 @@
 
 .q6_zoom img:hover {
   transform: scale(1.5);
-  transition-duration: 0.5s; 
 }
 
 .q6_wrap .q6_box:first-child {

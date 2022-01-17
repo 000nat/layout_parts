@@ -19,12 +19,11 @@
 .q5_tbody {
   display: table-cell;
   width: 400px;
-  background-clip: padding-box;
-  border-right: 60px solid transparent;
+  padding-left: 60px;
 }
 
-.q5_tbody:last-child {
-  border-right: none;
+.q5_tbody:first-child {
+  padding-left: 0;
 }
 
 .q5_inline {
@@ -59,12 +58,12 @@
 
 .q5_contents {
   display: inline-block;
-  margin-right: 30px;
+  margin-left: 30px;
   width: calc(100% - 30px * 2 / 3);
 }
 
-.q5_contents:last-child {
-  margin-right: 0px;
+.q5_contents:first-child {
+  margin-left: 0px;
 }
 
 

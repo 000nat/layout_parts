@@ -20,24 +20,22 @@
 
 .q7_textbox::before {
   content: "";
-  border: solid 15px transparent;
-  border-right: solid  15px #fff;
-  position: absolute;
-  top: 50%;
-  left: -30px;
-  margin-top: 15px;
-  z-index: 2;
-}
-
-.q7_textbox::after {
-  content: "";
   border: solid 20px transparent;
   border-right: solid  20px #222;
   position: absolute;
   top: 50%;
   left: -42px;
   margin-top: 10px;
-  z-index: 1;
+}
+
+.q7_textbox::after {
+  content: "";
+  border: solid 15px transparent;
+  border-right: solid  15px #fff;
+  position: absolute;
+  top: 50%;
+  left: -30px;
+  margin-top: 15px;
 }
 
 .q7_textbox p {
